@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.weather-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #2f3640;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 350px;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+    text-align: left;
+} 
+.input-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 2px solid deepskyblue;
+    border-radius: 6px;
+    padding: 0rem 0.2rem;
+}
+.cityInput {
+    flex: 1;
+    padding: 0.4rem 0rem 0.4rem 0.4rem;
+    outline: none;
+    border: none;
+    font-size: 16px;
+}
+.search-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.weather-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.image {
+    text-align: center;
+}
+.temp,.location,.country {
+    margin-top: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+} 
+.temp {
+    font-weight: 500;
+}
+.location {
+    color: orange;
+    font-weight: 400;
+    font-size: 28px;
+}
+.country {
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+.cord {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 0.4rem;
+    text-align: center;
+}
+.cord div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+}
+.cord div span {
+    font-size: 14px;
+}
+.cord div span:nth-child(2){
+    font-size: 18px;
+    font-weight: bold;
+    color: #666;
+    padding-top: 5px;
+}
+.humidity-icon{
+    width: 40px;
+    height: 40px;
+}
+.data-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+}
+.text {
+    color: #666;
+}
+
+.copy-write {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}
+.copy-write span {
+    color: deepskyblue;
+}
